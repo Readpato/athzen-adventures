@@ -14,10 +14,12 @@ main {
   .log-book {
     height: 75vh;
     width: 15%;
+    border-left: 2px solid black;
   }
 
   .status-bar {
     height: 25vh;
     width: 100%;
+    border-top: 2px solid black;
   }
 }

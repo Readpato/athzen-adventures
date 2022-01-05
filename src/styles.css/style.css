@@ -22,11 +22,13 @@ main .game-board {
 main .log-book {
   height: 75vh;
   width: 15%;
+  border-left: 2px solid black;
 }
 
 main .status-bar {
   height: 25vh;
   width: 100%;
+  border-top: 2px solid black;
 }
 
 * {
@@ -34,6 +36,11 @@ main .status-bar {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #e0c9a6;
 }
 
 h1 {
@@ -46,5 +53,6 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
