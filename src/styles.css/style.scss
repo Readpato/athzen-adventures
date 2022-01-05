@@ -1,5 +1,6 @@
 @import "main";
 @import "log-book";
+@import "status-bar";
 
 * {
   margin: 0;
@@ -12,7 +13,9 @@ body {
   background-color: rgb(224, 201, 166);
 }
 
-h1 {
+h1,
+h2,
+h3 {
   text-align: center;
   text-decoration: underline;
 }
